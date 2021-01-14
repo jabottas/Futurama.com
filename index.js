@@ -10,6 +10,9 @@ function funcaosobedesce() {
         parametro = true
     }
 }
+function funcaorandom() {
+    document.getElementById('mensagembox').classList.toggle("animate");
+}
 /*
 function funcaorandom() {
     destino = Math.floor(Math.random() * 10) + 1;
