@@ -26,6 +26,7 @@
     box-shadow: none;
     background-color: white;
     opacity: 0.8;
+    cursor: pointer;
 }
 #destino{
     font-family: Helvetica;
@@ -58,6 +59,7 @@
     transform: rotate(180deg);
     top: 80vh;
     left: 47.5vw;
+    cursor: pointer;
 }
 #titulo{
     position: absolute;
