@@ -1,0 +1,135 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+}
+@font-face{
+    font-family: abaddon;
+    src: url(abaddon.woff);
+}
+#astroworld{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(imagens/stardrop1.jpg);
+    background-repeat: no-repeat;
+}
+#botao{
+    position: absolute;
+    left: 45vw;
+    top: 60vh;
+    width: 10vw;
+    height: 7vh;
+    border-radius: 70px;
+    box-shadow: none;
+    background-color: white;
+    opacity: 0.8;
+}
+#destino{
+    font-family: Helvetica;
+    font-weight: 800;
+    font-size: 12pt;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-image: url(imagens/stardrop1.jpg);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#rodape{
+    position: relative;
+    bottom: 0px;
+    height: 40vh;
+    width: 100vw;
+    background-image: url(imagens/stardrop1.jpg);
+    
+}
+#rodape2{
+    height: 40vh;
+    width: 100vw;
+    background: hsla(240, 100%, 2%, 0.94);
+    color: #ffffffb2;
+}
+#seta{
+    position: absolute;
+    height: 80px;
+    filter: invert(100%);
+    transform: rotate(180deg);
+    top: 80vh;
+    left: 47.5vw;
+}
+#titulo{
+    position: absolute;
+    color: white;
+    font-family: abaddon;
+    font-size: 36pt;
+    top: 1.4vh;
+    left: 2vw;
+}
+#mensagembox{
+    position: absolute;
+    height: 35vh;
+    width: 76vw;
+    background-color: green;
+    opacity: 0.3;
+    top: 15vh;
+    left: 12vw;
+    color: white;
+}
+#mensagem{
+    font-size: 96pt;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 750;
+}
+#tabela1{
+    position: absolute;
+    width: 35vw;
+    height: 38vh;
+    margin-left: 7.5vw;
+    margin-top: 1vh;
+    background-color: gray;
+    opacity: 0.1;
+    color: white;
+    text-align: center;
+    padding: 40px;
+    padding-top: 0px;
+}
+#tabela2{
+    position: absolute;
+    width: 35vw;
+    height: 38vh;
+    right: 7.5vw;
+    margin-top: 1vh;
+    background-color: blue;
+    opacity: 0.1;
+    color: white;
+    text-align: center;
+    padding: 40px;
+    padding-top: 0px;
+}
+#linhay{
+    position: absolute;
+    height: 32vh;
+    width: 0.15vw;
+    background-color: white;
+    left: 50vw;
+    bottom: 4vh;
+    border-radius: 20px;
+    opacity: 0.3;
+}
+.textorodape{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+}
+.titulorodape{
+    height: 4vh;
+    background-color: indianred;
+    opacity: 0.6;
+    font-size: 20pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.links{
+    background-color: green;
+}
