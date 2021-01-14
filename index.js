@@ -10,6 +10,7 @@ function funcaosobedesce() {
         parametro = true
     }
 }
+/*
 function funcaorandom() {
     destino = Math.floor(Math.random() * 10) + 1;
     if (destino == 0) {
@@ -46,3 +47,4 @@ function funcaorandom() {
         document.getElementById('mensagem').  
     }
 }
+*/
