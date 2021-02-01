@@ -25,7 +25,7 @@
     top: 60vh;
     width: 10vw;
     height: 7vh;
-    border: 1px solid #ffffff;
+    border: 2px solid #ffffff;
     border-radius: 70px;
     box-shadow: none;
     background-color: transparent;
@@ -48,7 +48,7 @@
     bottom: 0px;
     height: 40vh;
     width: 100vw;
-    background-color: rgb(0, 51, 255);
+    background-color: rgb(6, 32, 134);
     
 }
 #rodape2{
